@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import ScrollToHashElement from './components/common/ScrollToHashElement';
 
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
