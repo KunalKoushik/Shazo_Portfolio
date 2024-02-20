@@ -1,14 +1,12 @@
 import { toast } from "react-hot-toast"
 import { apiConnector } from "../apiConnector"
-require ('dotenv').config()
-// const BASE_URL = "http://localhost:4000/api/v1/"
-const BASE_URL = process.env.REACT_APP_BACKEND_URL;
+const BASE_URL = "https://portfolio-backend-an8n.onrender.com/api/v1"
+// const BASE_URL = process.env.REACT_APP_BASE_URL
 
 
 // AUTH ENDPOINTS
 export const mailpoint = {
-  // SENDMAIL_API : "https://portfolio-backend-an8n.onrender.com/api/v1/mail"
-  SENDMAIL_API : BASE_URL+"/mail",
+  SENDMAIL_API : BASE_URL+ "/mail"
 }
 
 
