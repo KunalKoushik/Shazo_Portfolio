@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+.swiper-button-next{
+    translate: 10px -10px;
+    color: black !important;
+    fill: black !important;
+    stroke: black !important;
+    background-color: #FFD60A;
+    padding: 1.5rem;
+    border-radius: 100%;
+
+}
+.swiper-button-prev {
+    
+    background-color: #FFD60A;
+    padding: 1.5rem;
+    border-radius: 100%;
+    z-index: 110;
+    translate: -10px 0px;
+    color: black !important;
+    fill: black !important;
+    stroke: black !important;
+}
+
+
+/* Swiper CSS Starts */
+/* .swiper {
+  max-width: 1200px;
+  width: 91.66%;
+  height: 185px;
+  margin: 50px 0px;
+} */
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 1rem;
+    /* border:2px solid #FFD60A; */
+  }
+  
+
+  /* Swiper CSS Ends */
