@@ -76,7 +76,7 @@ export const CardLinks = [
     // moneyceo
     {
       path:"https://www.youtube-nocookie.com/embed/9aoQNCx2GU0?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
-    // ?autoplay=1&mute=1
+   
   },
   {
     path:"https://www.youtube-nocookie.com/embed/9YOq4YTEOog?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
