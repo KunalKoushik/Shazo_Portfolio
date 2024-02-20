@@ -277,7 +277,7 @@ const Videos = () => {
         id="4"
         className="  flex flex-col w-[100%] mx-auto my-auto gap-4 "
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold">SORTED TALKS</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold">PODCASTS</h2>
         <div className="  z-2 flex gap-2 justify-center mx-auto items-center  w-[100%] ">
           <FaArrowCircleLeft
             onClick={() => {

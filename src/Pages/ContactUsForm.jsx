@@ -218,7 +218,7 @@ const ContactUsForm = () => {
       <div className=" gap-4 md:border-l-2 sm:pb-4 md:p-10 border-richblack-700 md:h-96  mb-2 flex flex-col  ">
         <h2 className="font-bold text-xl text-yellow-50">CONTACT ME</h2>
         <div className="flex flex-col  flex-wrap  gap-1  ">
-        <h2>DROP US A MAIL:</h2>
+        <h2>DROP A MAIL AT:</h2>
         <a href="mailto: shashwat.massmedia@gmail.com" className="underline">shashwat.massmedia@gmail.com</a>
         <h2>PHONE NUMBERS:</h2>
         <a href="tel:+91 9131571484">+91 9131571484</a>

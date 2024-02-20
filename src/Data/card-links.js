@@ -79,20 +79,21 @@ export const CardLinks = [
    
   },
   {
-    path:"https://www.youtube-nocookie.com/embed/9YOq4YTEOog?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
-  },
-  {
-    path:"https://www.youtube-nocookie.com/embed/5mOPX945cdk?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
-  },
-  
-  //maria
-  {
     path:"https://www.youtube-nocookie.com/embed/8Ffy4vveELc?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
   
   {
+    path:"https://www.youtube-nocookie.com/embed/9YOq4YTEOog?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
+  },
+  
+  //maria
+  
+  {
     
     path:"https://www.youtube-nocookie.com/embed/uHkL6q24EfA?si=e1XQ1F5nyjv5m1Hw?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
+  },
+  {
+    path:"https://www.youtube-nocookie.com/embed/5mOPX945cdk?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
   
   {

@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="text-center mt-10 w-[100%] font-mont text-lg flex flex-col items-center justify-center  gap-4 "
+      className="text-center w-[100%] font-mont text-lg flex flex-col items-center justify-center  gap-4 "
     >
       {/* Youtube Project Section */}
 

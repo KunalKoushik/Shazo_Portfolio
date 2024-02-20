@@ -22,7 +22,7 @@ function Home() {
       <div id="client"></div>
       <Clients/>
 
-      <Button  active={true} linkto={"/Contact"}>
+      <Button  active={true} linkto={"#Contact"}>
         <p id="contact">Let’s connect to make it a reality!</p>
       </Button>
   

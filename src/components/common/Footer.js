@@ -75,11 +75,6 @@ export const Footer = () => {
         </div>
 
         <div className="sm:mt-4 h-1 w-full bg-richblack-300"></div>
-
-        <div className="mt-2 flex text-center gap-2 sm:flex-col lg:flex-row">
-          <a href="https://www.linkedin.com/in/kunal-koushik-08aa1a218/">Made with ❤️ Kunal Koushik</a>
-          <p>© 2023</p>
-        </div>
       </div>
     </div>
   );
