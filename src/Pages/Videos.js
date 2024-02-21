@@ -33,7 +33,7 @@ const Videos = () => {
   const SlideRef4 = useRef();
   const SlideRef5 = useRef();
   return (
-    <div className="text-white relative w-11/12 flex items-center justify-center mx-auto flex-col gap-8 ">
+    <div className="font-mont text-white relative w-11/12 flex items-center justify-center mx-auto flex-col gap-8 ">
       <div className="flex sm:flex-wrap h-[15rem] items-center sm:justify-center md:justify-around  md:w-[80%] mt-4 sm:gap-4">
         <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#1"}>
           <img src={GB} className="rounded-full h-[100%]" alt="Gabe Bult" />

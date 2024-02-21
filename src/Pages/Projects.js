@@ -24,11 +24,11 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="text-center w-[100%] font-mont text-lg flex flex-col items-center justify-center  gap-4 "
+      className=" text-center w-[100%] font-mont text-lg flex flex-col items-center justify-center  gap-4 "
     >
       {/* Youtube Project Section */}
 
-      <h1 className=" md:w-auto font-bold  text-black  bg-yellow-50 rounded-md p-3 text-6xl  ">
+      <h1 className="w-full md:w-auto font-bold  text-black  bg-yellow-50 rounded-md sm:p-2 md:p-3 md:full  sm:text-3xl md:text-6xl  ">
         YouTube Projects
       </h1>
 
@@ -46,6 +46,7 @@ const Projects = () => {
           spaceBetween={25}
           loop={true}
           freeMode={true}
+          
           // autoplay={{
           //   delay: 9000,
           //   disableOnInteraction: false,
@@ -81,10 +82,10 @@ const Projects = () => {
 
       {/* Shorts project Section */}
 
-      <h1 className=" mt-4 font-bold  text-black  bg-yellow-50 mb-2 rounded-md p-3  text-6xl  ">
+      <h1 className="  mt-4 font-bold  text-black  bg-yellow-50 mb-2 rounded-md sm:px-6 sm:p-3 md:p-3 sm:w-full md:w-fit sm:text-3xl md:text-6xl  ">
         Shorts Projects
       </h1>
-      <div className="w-full flex  items-center ">
+      <div className="w-full flex items-center ">
         <FaArrowCircleLeft
           onClick={() => {
             SlideRef.current.swiper.slidePrev();
@@ -97,6 +98,7 @@ const Projects = () => {
           spaceBetween={25}
           breakpoints={{
             200: { slidesPerView: 1, spaceBetween: 10 },
+            500: { slidesPerView: 2, spaceBetween: 10 },
             900: { slidesPerView: 3 },
           }}
           loop={true}

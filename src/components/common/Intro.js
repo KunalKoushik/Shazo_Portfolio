@@ -1,6 +1,5 @@
 import React from "react";
 
-import IconBtn from "./IconBtn";
 
 const Intro = ({ setIntrostate }) => {
   return (
@@ -8,17 +7,18 @@ const Intro = ({ setIntrostate }) => {
       id="about"
       className=" text-justify  text-white relative  flex flex-col  items-center gap-4 "
     >
-      <div className=" flex gap-x-0 mt-2 md:flex-row sm:flex-col">
-        <div className="w-[35%] mt-5 mx-auto flex  flex-col">
+      <div className=" flex gap-x-0 md:flex-row sm:flex-col">
+        <div className="md:w-[35%] mx-auto flex ">
           <img
             src="https://res.cloudinary.com/di9itdore/image/upload/v1707207666/Shazofyne/IMG_20230521_165448_503_f9zz7s.jpg"
             className=" rounded-lg border-2 "
             height={500}
             width={500}
+            loading="lazy"
             alt="Shashwat"
           />
         </div>
-        <div className="w-[60%]  leading-snug  flex gap-2 flex-col text-lg mt-4 ">
+        <div className="md:w-[60%]  leading-snug  flex gap-2 flex-col text-lg ">
           <strong className=" text-yellow-25  ">
             Hey! Thank you for visiting the website.
           </strong>
@@ -54,7 +54,7 @@ const Intro = ({ setIntrostate }) => {
               Have a Nice Day!{" "}
             </strong>
             <button
-              className="hover:shadow-none hover:scale-95 transition-all duration-200 bg-richblack-700  font-mont flex items-baseline justify-center item-center md:gap-2 sm:gap-0 rounded-md text-center md:text-[20px] sm:text-[13px] sm:px-2 sm:py-2 md:px-6 md:py-3 font-bold w-[21%] "
+              className="hover:shadow-none hover:scale-95 transition-all duration-200 bg-richblack-700  font-mont flex items-baseline justify-center item-center md:gap-2 sm:gap-0 rounded-md text-center md:text-[20px] sm:text-[15px] sm:px-2 sm:py-2 md:px-6 md:py-3 font-bold md:w-[21%] "
               onClick={() => {
                 setIntrostate(false);
               }}

@@ -11,7 +11,7 @@ export const CardLinks = [
         {
           p1:`Gabe Bult`,
           p2:`Youtuber : 370K+ Subscribers`,
-          p3:`He creates content around Minimalism & frugal living, and he was able to see a massive growth in terms of views and Subscribers, while working with our edits, We specially focus on delivering High Quality Edits, that Compliments the Vibe of the entire video.`,
+          p3:`He creates content around Minimalism & frugal living, and he was able to see a massive growth in terms of views and Subscribers, while working with our edits, We specially focus on delivering High Quality Edits, that Compliments the Vibe of the entire video.that Compliments the Vibe of the entire video.that Compliments the Vibe of the entire video.that Compliments the Vibe of the entire video.`,
           
         }
       ],
@@ -27,7 +27,7 @@ export const CardLinks = [
           p3:`He is a Content Creator, who creates amazing videos on Crypto Currencies and Latest Web 3 Projects. I really focused on High Paced Edits, Since the audience rentention matters a lot in these type of videos. Apart from that his video gained a lot of Impressions and attention.`,
         }
       ],
-      path:"https://www.youtube-nocookie.com/embed/vfjI7u4D2fc?si=X7QcoVYLFnrMa_VL",
+      path:"https://www.youtube.com/embed/vfjI7u4D2fc?si=r5s-VuX_Ju61i9H8",
       image:FQ,
       
       
@@ -40,7 +40,7 @@ export const CardLinks = [
           p3:`He is one of the Best Indian YouTuber in Filmmaking Genre on Youtube, As an editor, I Focused more on the Energy and the Pacing of his Videos with touch of Cinematic Visual Storytelling, which helped him to gain a lot more engagement with his Audience.`,
         }
       ],
-      path:"https://www.youtube-nocookie.com/embed/0C8wasc-J-Q?si=9geFi4z1-La1vt66&amp",
+      path:"https://www.youtube.com/embed/0C8wasc-J-Q?si=dZcTHeBG_LquLHYa",
       image:LS,
       
     },
@@ -53,7 +53,7 @@ export const CardLinks = [
         }
       ],
       path:"https://www.youtube-nocookie.com/embed/M9DU8J3KXP8?si=MGy3R42_95F0llEL",
-      testimonial_video:"https://www.youtube-nocookie.com/embed/AKywyiUlS90?si=P4FoyRR63wAu2I8J" ,
+      testimonial_video:"https://www.youtube.com/embed/AKywyiUlS90?si=NnGvz1xkw6OjBoXy" ,
       image:ST,
       
     },
@@ -65,9 +65,9 @@ export const CardLinks = [
           p3:`MobRob is an Entertainment Channel which mainly focuses on Creating Content around GenZ audience, It Creates Comedy Sketches which Usually Revolves around dark Comedy and Humour.`
         }
       ],
-      path:"https://www.youtube-nocookie.com/embed/4CxP4OcR12U?si=5-1bKIVfIT6PPR84",
+      path:"https://www.youtube.com/embed/4CxP4OcR12U?si=ncGGDKCzME3AUD3x",
       image:MR,
-      testimonial_video:"https://www.youtube.com/embed/mo2TSEFeIVQ?si=FJLXyi4KMbS41tYS",
+      testimonial_video:"https://www.youtube.com/embed/mo2TSEFeIVQ?si=1aR-AuS_A3zPo6pH",
       
     },
     

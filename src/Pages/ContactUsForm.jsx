@@ -134,14 +134,14 @@ const ContactUsForm = () => {
                 Phone Number
               </label>
 
-              <div className="flex md:gap-5 sm:gap-2">
-                <div className=" flex sm:w-[80px] md:w-[120px] flex-col gap-2">
+              <div className="flex  md:gap-5 sm:gap-2 ">
+                <div className=" flex sm:w-[80px] md:w-[120px] flex-col md:gap-2">
                   <select
                     type="text"
                     // name="firstname"
                     // id="firstname"
                     // placeholder="Enter first name"
-                    className="form-style  "
+                    className="form-style sm:h-full  "
                     {...register("countrycode", { required: true })}
                   >
                     {CountryCode.map((ele, i) => {
@@ -201,13 +201,13 @@ const ContactUsForm = () => {
             <button
               disabled={loading}
               type="submit"
-              className={` mx-auto rounded-md bg-yellow-50 px-6 py-3 text-center text-[13px] font-bold text-black shadow-[2px_2px_0px_0px_rgba(255,255,255,0.18)] 
+              className={` mx-auto rounded-md bg-yellow-50 px-6 py-3 text-center text-[13px] font-bold text-black shadow-[2px_2px_0px_0px_rgba(255,255,255,0.18)] sm+:w-fit sm:w-full flex items-center justify-center
          ${
            !loading &&
-           "transition-all duration-200 hover:scale-95 hover:shadow-none"
+           "transition-all duration-200 hover:scale-95 hover:shadow-none sm:mb-4 md:mb-0"
          }  disabled:bg-richblack-500 sm:text-[16px] `}
             >
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 ">
                 SCHEDULE CALL <FaArrowRight />
               </div>
             </button>

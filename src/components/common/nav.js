@@ -35,10 +35,10 @@ function Nav() {
   return (
     <div
       style={{...navbarStyles }}
-      className=" bg-richblack-600 "
+      className=" "
     
     >
-      <div className=" mb-0  mx-auto px-4   sm:px-6 lg:px-8 ">
+      <div className=" bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-richblack-800 to-richblack-900  mb-0  mx-auto px-4   sm:px-6 lg:px-8 ">
         <div className=" flex items-center mx-auto justify-evenly  h-14  ">
           <div className=" md:translate-x-32 sm:translate-x-4   text-yellow-50 rounded-md font-bold sm:text-xl md:text-3xl items-baseline">
             {/* logo */}
@@ -102,7 +102,7 @@ function Nav() {
       </div>
       {/* mobile */}
       {Open ? (
-        <div className=" block md:hidden p-0 m-0 bg-richblack-600 transition-all duration-500 ease ">
+        <div className=" block md:hidden p-0 m-0 text-richblack-25 bg-transparent transition-all duration-500 ease ">
           <nav className="flex flex-col pt-2 ox-2 pb-3 space-y-4 sm:px-3 gap-x-4 ">
             {NavbarLinks.map((link, index) => (
               <a

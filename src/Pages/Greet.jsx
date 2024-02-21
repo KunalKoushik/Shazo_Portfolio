@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/common/Button";
 const Greet = () => {
   return (
-    <div className="fixed inset-0 z-[1000] !mt-0 grid place-items-center overflow-auto bg-white bg-opacity-10 backdrop-blur-sm">
+    <div className="font-mont fixed inset-0 z-[1000] !mt-0 grid place-items-center overflow-auto bg-white bg-opacity-10 backdrop-blur-sm">
 
       <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8">
 

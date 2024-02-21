@@ -23,7 +23,7 @@ export const ClientDetails = [
         image: NW,
   },
         {
-          title: `MoneyApp`,
+          title: `Money App`,
           Sub: `750K+ Subscribers`,
           image: MA,
         },
@@ -44,7 +44,7 @@ export const ClientDetails = [
   },
 
   {
-    title: `The Money CEO`,
+    title: `Money CEO`,
     Sub: `58K+ Subscribers`,
     image: MC,
   },

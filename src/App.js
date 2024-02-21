@@ -11,7 +11,9 @@ import Greetbg from './components/particles/Greetbg';
 import Morevideos from './Pages/Videos'
 import { useLocation,matchPath } from "react-router-dom";
 import Nav from './components/common/nav';
+
 function App() {
+  
   const location = useLocation()
 
     const matchRoute = (route) => {

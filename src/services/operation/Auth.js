@@ -1,5 +1,6 @@
 import { toast } from "react-hot-toast"
 import { apiConnector } from "../apiConnector"
+// const BASE_URL = "http://localhost:4000/api/v1"
 const BASE_URL = "https://portfolio-backend-an8n.onrender.com/api/v1"
 // const BASE_URL = process.env.REACT_APP_BASE_URL
 
@@ -27,7 +28,7 @@ export function sendmail(email, firstname, lastname, message, phoneNo, navigate)
       }
 
       toast.success("Mail Sent Successfully")
-      navigate("/Completion")
+      // navigate("/Completion")
     } catch (error) {
       console.log("SENDMAIL API ERROR............", error)
       toast.error("Could Not Send MAIL")
