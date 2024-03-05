@@ -11,7 +11,7 @@ const Clients = () => {
 
       {ClientDetails.map((link, index)=>(
         <div key={index} className="m-2  sm:w-[30%] sm:h-[30%] sm+:w-[20%] sm+:h[20%] md:h-[80%] md:w-[16%]  space-y-2 ">
-          <img src={link?.image} className=" h-[100%] bg-richblack-800  rounded-full " alt={link?.title} />
+          <img src={link?.image} className=" h-[100%] bg-richblack-800  rounded-full " alt={link?.title}  loading="lazy"/>
           <p className="text-center mt-1 text-yellow-50  font-bold md:text-2xl  ">{link?.title}</p>
           <p className="text-center mt-1 md:text-xl  ">{link?.Sub}</p>
         </div>

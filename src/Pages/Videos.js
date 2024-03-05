@@ -36,15 +36,15 @@ const Videos = () => {
     <div className="font-mont text-white relative w-11/12 flex items-center justify-center mx-auto flex-col gap-8 ">
       <div className="flex sm:flex-wrap h-[15rem] items-center sm:justify-center md:justify-around  md:w-[80%] mt-4 sm:gap-4">
         <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#1"}>
-          <img src={GB} className="rounded-full h-[100%]" alt="Gabe Bult" />
+          <img src={GB} className="rounded-full h-[100%]" alt="Gabe Bult" loading="lazy"/>
         <p className="text-center mt-1 md:text-xl ">Gabe Bult</p>
         </Link>
         <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#2"}>
-          <img src={FQ} className="rounded-full h-[100%] " alt="Farees Q" />
+          <img src={FQ} className="rounded-full h-[100%] " alt="Farees Q"  loading="lazy" />
         <p className="text-center mt-1 md:text-xl ">Faares Q</p>
         </Link>
         <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#3"}>
-          <img src={LS} className="rounded-full h-[100%] " alt="Loststoner" />
+          <img src={LS} className="rounded-full h-[100%] " alt="Loststoner"  loading="lazy"/>
         <p className="text-center mt-1 md:text-xl ">Loststoner</p>
         </Link>
         <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#4"}>
@@ -52,11 +52,12 @@ const Videos = () => {
             src={ST}
             className="rounded-full h-[100%] bg-richblack-800 "
             alt=" Sorted Talk"
+            loading="lazy"
           />
         <p className="text-center mt-1 md:text-xl ">Sorted Talk</p>
         </Link>
         <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#5"}>
-        <img src={MR} className="rounded-full h-[100%] " alt="MobRob" />
+        <img src={MR} className="rounded-full h-[100%] " alt="MobRob"  loading="lazy"/>
         <p className="text-center mt-1 md:text-xl ">MobRob</p>
         </Link>
       </div>
@@ -99,6 +100,7 @@ const Videos = () => {
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                   <p>{link?.views}</p>
                 </div>
@@ -152,6 +154,7 @@ const Videos = () => {
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                   <p>{link?.views}</p>
                 </div>
@@ -205,6 +208,7 @@ const Videos = () => {
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                   <p>{link?.views}</p>
                 </div>
@@ -259,6 +263,7 @@ const Videos = () => {
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                   <p>{link?.views}</p>
                 </div>
@@ -312,6 +317,7 @@ const Videos = () => {
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                   {/* <p>{link?.views}</p> */}
                 </div>

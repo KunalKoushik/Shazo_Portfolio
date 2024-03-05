@@ -27,6 +27,7 @@ const Card = ({
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
+            loading="lazy"
           ></iframe>
         </div>
         <div className="sm:w-[100%] flex md:h-[26rem] sm+:mt-16 md:mt-0  gap-4 items-start justify-evenly md:w-[44%] text-justify flex-col p-1 ">
@@ -36,6 +37,7 @@ const Card = ({
               className=" rounded-full  bg-richblack-900 "
               src={client}
               alt="Client"
+              loading="lazy"
             />
             </div>
             <div className="md:gap-2 md:flex md:flex-col sm:w-[100%]  md:w-[60%] flex-wrap ">

@@ -2,6 +2,7 @@ import React, { useState , } from "react";
 import { Link, matchPath, useLocation } from "react-router-dom";
 import { NavbarLinks } from "../../Data/navbar-links";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { CSSTransition } from "react-transition-group";
 
 function Nav() {
   
@@ -28,14 +29,13 @@ function Nav() {
     backgroundColor: 'richblack-700',
     textAlign: 'center',
     // new:
-    transition: 'top 0.6s',
+    transition: 'right 0.6s',
     zIndex : '10'
   }
 
   return (
     <div
       style={{...navbarStyles }}
-      className=" "
     
     >
       <div className=" bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-richblack-800 to-richblack-900  mb-0  mx-auto px-4   sm:px-6 lg:px-8 ">
@@ -91,7 +91,7 @@ function Nav() {
             <button
               type="button"
               onClick={handlemenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-caribbeangreen-5
+              className="px-2 py-1 mr-4  inline-flex items-center justify-center p-2 rounded-md text-caribbeangreen-5
                           hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 
                           focus:ring-offset-black focus:ring-white"
             >
@@ -102,16 +102,17 @@ function Nav() {
       </div>
       {/* mobile */}
       {Open ? (
-        <div className=" block md:hidden p-0 m-0 text-richblack-25 bg-transparent transition-all duration-500 ease ">
-          <nav className="flex flex-col pt-2 ox-2 pb-3 space-y-4 sm:px-3 gap-x-4 ">
+        <div 
+        className="my-div active:right-0 active:block fixed  border shadow-lg flex items-center justify-end md:hidden text-richblack-25 bg-transparent ">
+          
+          <nav className="bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-richblack-700 to-richblack-900  flex flex-col pt-2 pb-3 space-y-4 sm:px-3 gap-x-4 ">
             {NavbarLinks.map((link, index) => (
               <a
                 key={index}
-                className="hover:bg-richblack-700 hover:text-yellow-50 rounded-md 
-                                                transition-all duration-500 "
+                className=" px-10 hover:bg-richblack-700 hover:text-yellow-50 rounded-md  "
               >
                 <Link to={link?.path}>
-                  <p
+                  <p className=""
                   >
                     {link.title}
                   </p>
@@ -121,6 +122,7 @@ function Nav() {
           </nav>
         </div>
       ) : null}
+      
     </div>
   );
 }

@@ -45,3 +45,22 @@
   
 
   /* Swiper CSS Ends */
+
+  
+  @keyframes slideRightToLeft {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-180px, 0); /* Adjust the distance as needed */
+    }
+  }
+  .my-div {
+    animation: slideRightToLeft 1s linear ;
+    left: 54%; /* Adjust duration and timing function */
+  }
+  .my-div.active{
+    right: 0;
+  }
+  
+  

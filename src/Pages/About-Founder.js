@@ -3,7 +3,8 @@ import Button from "../components/common/Button";
 import IconBtn from "../components/common/IconBtn";
 import Intro from "../components/common/Intro";
 import { useState, useEffect } from "react";
-import { GrClose } from "react-icons/gr";
+
+
 const About = () => {
   useEffect(() => {
     //Runs on every render
@@ -16,18 +17,19 @@ const About = () => {
         <Intro setIntrostate={setIntrostate} />
       ):(
         <div className=" w-full h-full  text-justify  text-white flex flex-col  items-center gap-4 ">
-      
+        
         <iframe
           className=" sm:h-[190px] sm:w-[340px] rounded-lg md:h-[95%] md:min-w-[80%]    "
           // height={400}
           // width={500}
-          loading="lazy"
           src="https://www.youtube.com/embed/3sZnaoAF0Bw?si=FJWy30zkpOCN-l1H&amp;start=2"
           title="Introduction"
           frameborder="0"
           allow="autoplay; encrypted-media; gyroscope; picture-in-picture; "
           allowfullscreen="1"
-        ></iframe>
+          // loading="lazy"
+          
+          ></iframe>
        
         <IconBtn
                   active={false}
