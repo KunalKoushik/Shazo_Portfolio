@@ -167,6 +167,7 @@ details>summary {
   list-style: none;
 }
 
+
 details>summary::-webkit-details-marker {
   display: none;
 }
@@ -214,6 +215,15 @@ input[type=number]::-webkit-outer-spin-button {
 
 .logo {
   animation: blink 1s infinite;
+}
+@keyframes ping {
+  75%, 100% {
+      transform: scale(1.5);
+      opacity: 1;
+  }
+}
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) 2;
 }
 
 @keyframes blink {

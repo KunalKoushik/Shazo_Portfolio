@@ -5,7 +5,7 @@ const Intro = ({ setIntrostate }) => {
   return (
     <div
       id="about"
-      className=" text-justify  text-white relative  flex flex-col  items-center gap-4 "
+      className=" text-justify text-white relative  flex flex-col  items-center gap-4 "
     >
       <div className=" flex gap-x-0 md:flex-row sm:flex-col">
         <div className="md:w-[35%] mx-auto flex ">

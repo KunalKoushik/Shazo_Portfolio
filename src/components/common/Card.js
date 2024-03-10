@@ -1,12 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import IconBtn from "./IconBtn";
+import { TbCircleDotFilled } from "react-icons/tb";
+import { FaCircleDot } from "react-icons/fa6";
 import Testimonial from "../Projects/Testimonial";
 
 const Card = ({
   text1,
   text2,
   text3,
+  text4,
+  text5,
   client,
   linkto,
   testmonial_video,
@@ -33,12 +37,12 @@ const Card = ({
         <div className="sm:w-[100%] flex md:h-[26rem] sm+:mt-16 md:mt-0  gap-4 items-start justify-evenly md:w-[44%] text-justify flex-col p-1 ">
           <div className="w-full flex text-justify sm:items-center sm:justify-center md:justify-between md:space-x-3  md:flex-row sm:flex-col ">
             <div className="sm:h-1/2 sm:w-1/2 sm+:h-[30%] sm+:w-[30%] md:h-full md:w-[40%] flex items-center justify-center">
-            <img
-              className=" rounded-full  bg-richblack-900 "
-              src={client}
-              alt="Client"
-              loading="lazy"
-            />
+              <img
+                className=" rounded-full  bg-richblack-900 "
+                src={client}
+                alt="Client"
+                loading="lazy"
+              />
             </div>
             <div className="md:gap-2 md:flex md:flex-col sm:w-[100%]  md:w-[60%] flex-wrap ">
               <p className=" text-yellow-50 sm:text-xl md:text-5xl font-bold sm:text-center md:text-justify">
@@ -75,7 +79,12 @@ const Card = ({
             </div> */}
             </div>
           </div>
-          <p className="sm:hidden md:flex ">{text3}</p>
+          <ul style={{ listStyleType: "disc" }} >
+            <li className="sm:hidden md:flex  gap-2 ">{text3}</li>
+            <li className="sm:hidden md:flex  gap-2">{text4}</li>
+            <li className="sm:hidden md:flex  gap-2">{text5}</li>
+          </ul>
+           
         </div>
       </div>
 

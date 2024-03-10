@@ -9,10 +9,10 @@ import Particlebg from './components/particles/Particlebg'
 import Greet from './Pages/Greet';
 import Greetbg from './components/particles/Greetbg';
 // import Morevideos from './Pages/Videos';
+import ScaleLoader from "react-spinners/ScaleLoader";
 import { useLocation,matchPath } from "react-router-dom";
 import Nav from './components/common/nav';
 import { lazy,Suspense, useEffect, useState } from 'react';
-import Logo from './components/common/Logo';
 
 const Morevideos = lazy( ()=> import('./Pages/Videos'))
 
@@ -28,7 +28,7 @@ function App() {
   const fetchData = ()=>{
         setTimeout(() => {
           setIsLoading(false)
-        }, 4000);
+        }, 2000);
       }
       fetchData();
     },[]
@@ -37,7 +37,8 @@ function App() {
   
   return IsLoading? (
     <div className='flex h-[100vh] w-full items-center justify-center  bg-richblack-900'>
-    <Logo/>
+    <ScaleLoader color="#FFD60A" size={30} speedMultiplier={2}
+    />
     </div>):( 
     <div id='about' className="relative flex min-h-screen w-screen flex-col bg-richblack-900 justify-between font-mont ">
     <Nav></Nav>
@@ -58,24 +59,6 @@ function App() {
     <Footer/>
     </div>
   );
-  // return(
-  //   <div id='about' className="relative flex min-h-screen w-screen flex-col bg-richblack-900 justify-between font-mont ">
-  //     <Loader/>
-  //   <Nav></Nav>
-  //   {matchRoute("/mail") ? <Greetbg /> : <Particlebg/>}
-  //   <ScrollToHashElement/>
-  //   <ScrollToTop/>
-    
-
-  //   <Routes>
-  //       <Route path="/" element={<Home/>} />
-  //       <Route path="/mail" element={<Greet />} />
-  //       <Route path="/videos" element={<Morevideos/>} />
-  //       <Route path="*" element={<Error />} />
-  //   </Routes>
-  //   <Footer/>
-  //   </div>
-  // );
 }
 
 export default App;

@@ -38,7 +38,7 @@ const Projects = () => {
             SlideRef1.current.swiper.slidePrev();
             setTestimonialstate(false);
           }}
-          className="hover:scale-95 hover:cursor-pointer  rounded-full text-black bg-yellow-50 sm:h-[2.3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]  "
+          className="hover:scale-90 hover:cursor-pointer  rounded-full text-black bg-yellow-50 sm:h-[2.3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]  "
         />
         <Swiper
           ref={SlideRef1}
@@ -53,7 +53,7 @@ const Projects = () => {
           // }}
 
           modules={[FreeMode, Pagination, Navigation, Autoplay]}
-          className=" w-[110%]   "
+          className=" w-[100%]   "
         >
           {CardLinks.map((link, index) => (
             <SwiperSlide key={index}>
@@ -63,6 +63,7 @@ const Projects = () => {
                 text2={link.title[0].p2}
                 text3={link.title[0].p3}
                 text4={link.title[0].p4}
+                text5={link.title[0].p5}
                 client={link.image}
                 testmonial_video={link.testimonial_video}
                 setTestimonialstate={setTestimonialstate}
@@ -76,7 +77,7 @@ const Projects = () => {
             SlideRef1.current.swiper.slideNext();
             setTestimonialstate(false);
           }}
-          className="hover:scale-95 hover:cursor-pointer rounded-full text-black bg-yellow-50 sm:h-[2.3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]"
+          className="hover:scale-90 hover:cursor-pointer rounded-full text-black bg-yellow-50 sm:h-[2.3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]"
         />
       </div>
 

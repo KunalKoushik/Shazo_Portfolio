@@ -4,6 +4,8 @@ const PW = "https://res.cloudinary.com/di9itdore/image/upload/v1707212060/Shazof
 const MA = "https://res.cloudinary.com/di9itdore/image/upload/v1707212064/Shazofyne/Logos/MoneyyApp_e4dyxq.png";
 const MD = "https://res.cloudinary.com/di9itdore/image/upload/v1707212063/Shazofyne/Logos/mia_ta1vrd.jpg";
 const STv = "https://res.cloudinary.com/di9itdore/image/upload/v1707212059/Shazofyne/Logos/Sorted_Tv_pic_l6qxx6.jpg";
+const HS =
+  "https://res.cloudinary.com/di9itdore/image/upload/v1710062104/Shazofyne/Logos/channels4_profile_3_bkvvxf.jpg";
 
 const GB = "https://res.cloudinary.com/di9itdore/image/upload/v1707212059/Shazofyne/Logos/gabe_wtwfqu.jpg";
 const FQ = "https://res.cloudinary.com/di9itdore/image/upload/v1707212059/Shazofyne/Logos/Faares_Q_fqch8o.jpg";
@@ -29,12 +31,17 @@ export const ClientDetails = [
         },
   {
     title: `Gabe Bult`,
-    Sub: `370K+ Subscribers`,
+    Sub: `500K+ Subscribers`,
     image: GB,
   },
   {
+    title: `Harman Singh`,
+    Sub: `370K+ Subscribers`,
+    image: HS,
+  },
+  {
     title: `Sorted TV`,
-    Sub: `245K+ Subscribers`,
+    Sub: `320K+ Subscribers`,
     image: STv,
   },
   {
@@ -45,22 +52,17 @@ export const ClientDetails = [
 
   {
     title: `Money CEO`,
-    Sub: `58K+ Subscribers`,
+    Sub: `60K+ Subscribers`,
     image: MC,
   },
   {
     title: `Mia Danielle`,
-    Sub: `50K+ Subscribers`,
+    Sub: `55K+ Subscribers`,
     image: MD,
   },
   {
     title: `Loststoner`,
     Sub: `26K+ Subscribers`,
     image: LS,
-  },
-  {
-    title: `Sorted Talk`,
-    Sub: `10K+ Subscribers`,
-    image: ST,
   },
 ];
