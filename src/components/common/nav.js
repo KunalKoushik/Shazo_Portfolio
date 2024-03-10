@@ -78,7 +78,7 @@ function Nav() {
           </div>
           <div
             className={`${
-              matchPath({ path: "/videos", }, location.pathname)
+              matchPath({ path: "/videos", }, location.pathname) || matchPath({ path: "/shorts", }, location.pathname)
                 ? "hidden"
                 : "block"
             } absolute right-2 top-3 -mr-2 flex md:hidden `}
