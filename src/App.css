@@ -222,8 +222,9 @@ input[type=number]::-webkit-outer-spin-button {
       opacity: 1;
   }
 }
-.animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) 2;
+.animate-zoom {
+  /* animation: ping 1s cubic-bezier(0, 0, 0.2, 1) 1; */
+  animation : zoom-in-zoom-out 1s ease 1;
 }
 
 @keyframes blink {
@@ -235,5 +236,16 @@ input[type=number]::-webkit-outer-spin-button {
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }

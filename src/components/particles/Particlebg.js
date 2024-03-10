@@ -49,7 +49,7 @@ function Particlebg(){
                         color: "#ffffff",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.3,
                         width: 1,
                     },
                     move: {
@@ -70,7 +70,7 @@ function Particlebg(){
                         value: 50,
                     },
                     opacity: {
-                        value: 0.4,
+                        value: 0.3,
                     },
                     shape: {
                         type: "circle",

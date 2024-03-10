@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 
 const Intro = ({ setIntrostate }) => {
@@ -8,7 +9,11 @@ const Intro = ({ setIntrostate }) => {
       className=" text-justify text-white relative  flex flex-col  items-center gap-4 "
     >
       <div className=" flex gap-x-0 md:flex-row sm:flex-col">
-        <div className="md:w-[35%] mx-auto flex ">
+        <motion.div
+         initial ={{ opacity: 0}}
+         animate={{ opacity: 1}}
+         transition = {{ duration: 2 }}
+        className="md:w-[35%] mx-auto flex ">
           <img
             src="https://res.cloudinary.com/di9itdore/image/upload/v1707207666/Shazofyne/IMG_20230521_165448_503_f9zz7s.jpg"
             className=" rounded-lg border-2 "
@@ -17,7 +22,7 @@ const Intro = ({ setIntrostate }) => {
             loading="lazy"
             alt="Shashwat"
           />
-        </div>
+        </motion.div>
         <div className="md:w-[60%]  leading-snug  flex gap-2 flex-col text-lg ">
           <strong className=" text-yellow-25  ">
             Hey! Thank you for visiting the website.

@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import IconBtn from "../components/common/IconBtn";
 import { CardLinks, ShortLinks } from "../Data/card-links";
 import Card from "../components/common/Card";
-import Reels from "../components/common/Reels";
+import Reels from "../components/common/Shorts";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 // Import Swiper React components
@@ -32,13 +32,13 @@ const Projects = () => {
         YouTube Projects
       </h1>
 
-      <div className=" sm:w-[115%] md:w-[110%] flex items-center justify-center ">
+      <div className=" w-[110%] flex items-center justify-center ">
         <FaArrowCircleLeft
           onClick={() => {
             SlideRef1.current.swiper.slidePrev();
             setTestimonialstate(false);
           }}
-          className="hover:scale-90 hover:cursor-pointer  rounded-full text-black bg-yellow-50 sm:h-[2.3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]  "
+          className="hover:scale-90 hover:cursor-pointer  rounded-full text-black bg-yellow-50 sm:h-[3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]  "
         />
         <Swiper
           ref={SlideRef1}
@@ -53,7 +53,7 @@ const Projects = () => {
           // }}
 
           modules={[FreeMode, Pagination, Navigation, Autoplay]}
-          className=" w-[100%]   "
+          className="sm:w-[80%] md:w-[100%]  "
         >
           {CardLinks.map((link, index) => (
             <SwiperSlide key={index}>
@@ -77,7 +77,7 @@ const Projects = () => {
             SlideRef1.current.swiper.slideNext();
             setTestimonialstate(false);
           }}
-          className="hover:scale-90 hover:cursor-pointer rounded-full text-black bg-yellow-50 sm:h-[2.3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]"
+          className="hover:scale-90 hover:cursor-pointer rounded-full text-black bg-yellow-50 sm:h-[3rem] sm:w-[3rem] md:h-[4rem] md:w-[4.5rem]"
         />
       </div>
 
@@ -100,12 +100,12 @@ const Projects = () => {
           breakpoints={{
             200: { slidesPerView: 1, spaceBetween: 10 },
             500: { slidesPerView: 2, spaceBetween: 10 },
-            900: { slidesPerView: 3 },
+            1200: { slidesPerView: 3 },
           }}
           loop={true}
           freeMode={true}
           modules={[FreeMode, Pagination, Navigation, Autoplay]}
-          className="mt-0 w-[75%] "
+          className="mt-0 w-[80%] "
         >
           {ShortLinks.map((link, index) => (
             <SwiperSlide key={index}>
@@ -122,9 +122,9 @@ const Projects = () => {
       </div>
       <IconBtn
         active={false}
-        text="More Engaging Projects"
+        text="More Engaging Shorts"
         onclick={() => {
-          navigate("/videos");
+          navigate("/shorts");
         }}
       ></IconBtn>
     </div>

@@ -34,8 +34,8 @@ const Card = ({
             loading="lazy"
           ></iframe>
         </div>
-        <div className="sm:w-[100%] flex md:h-[26rem] sm+:mt-16 md:mt-0  gap-4 items-start justify-evenly md:w-[44%] text-justify flex-col p-1 ">
-          <div className="w-full flex text-justify sm:items-center sm:justify-center md:justify-between md:space-x-3  md:flex-row sm:flex-col ">
+        <div className="sm:w-[90%] flex md:h-[26rem] sm+:mt-16 md:mt-0  gap-4 items-start justify-between md:w-[44%] flex-col text-left p-1 ">
+          <div className="w-full flex text-justify sm:items-center sm:justify-center md:justify-between md:space-x-3 flex-row sm:mt-2 md:mt-0 sm:gap-8 md:gap-0 ">
             <div className="sm:h-1/2 sm:w-1/2 sm+:h-[30%] sm+:w-[30%] md:h-full md:w-[40%] flex items-center justify-center">
               <img
                 className=" rounded-full  bg-richblack-900 "
@@ -44,11 +44,11 @@ const Card = ({
                 loading="lazy"
               />
             </div>
-            <div className="md:gap-2 md:flex md:flex-col sm:w-[100%]  md:w-[60%] flex-wrap ">
-              <p className=" text-yellow-50 sm:text-xl md:text-5xl font-bold sm:text-center md:text-justify">
+            <div className="md:gap-2  md:flex md:flex-col sm:w-[100%]   md:w-[60%] flex-wrap ">
+              <p className=" text-yellow-50 md:text-left sm:text-xl md:text-4xl font-bold sm:text-center ">
                 {text1}
               </p>
-              <p className=" text-yellow-50 sm:text-center text-start mb-2 md:text-justify ">
+              <p className=" text-yellow-50 sm:text-center px-1  md:text-left mb-2  ">
                 {text2}
               </p>
 
@@ -62,29 +62,19 @@ const Card = ({
                 ></IconBtn>
                 <IconBtn
                   active={false}
-                  text="More Videos"
+                  text="More Projects"
                   onclick={() => {
                     navigate("/videos");
                   }}
                 ></IconBtn>
               </div>
-              {/* <div className="sm:hidden md:block">
-              <IconBtn
-              active={false}
-                text="Contact Us"
-                onclick={() => {
-                  navigate("#contact");
-                }}
-              ></IconBtn>
-            </div> */}
             </div>
           </div>
-          <ul style={{ listStyleType: "disc" }} >
-            <li className="sm:hidden md:flex  gap-2 ">{text3}</li>
-            <li className="sm:hidden md:flex  gap-2">{text4}</li>
-            <li className="sm:hidden md:flex  gap-2">{text5}</li>
-          </ul>
-           
+          <ul style={{ listStyleType: "disc" }} className=" translate-x-4 sm:hidden md:block ">
+            <li >{text3}</li>
+            <li >{text4}</li>
+            <li >{text5}</li>
+          </ul>  
         </div>
       </div>
 

@@ -39,17 +39,17 @@ export const Faaresqvideos = [
     views: `5K+ Views`,
     path: "https://www.youtube-nocookie.com/embed/ARcXjqDEcU8?si=J0SjuhjbDQM83icE",
   },
-  
 ];
-export const sortedtalkvideos = [
+export const podcasts = [
   {
-    path: "https://www.youtube-nocookie.com/embed/U7wWuqCALOU?si=tHaHL2LgCDtlPryF",
+    path: "https://www.youtube.com/embed/Yqqzc_YT-W8?si=TcBgI0wCIYeehXI0",
   },
-    {
-      path: "https://www.youtube-nocookie.com/embed/M9DU8J3KXP8?si=MGy3R42_95F0llEL",
-    },
-  
-  
+  {
+    path: "https://www.youtube-nocookie.com/embed/alFuAgSlaYg?si=nPgO-XOQd-qD3UX8",
+  },
+  {
+    path: "https://www.youtube.com/embed/AzqM2hzzTa0?si=mAJ7lprrBDJ_EOB8",
+  },
 ];
 export const loststonervideos = [
   {
@@ -77,7 +77,6 @@ export const loststonervideos = [
     views: `8K+ Views`,
     path: "https://www.youtube-nocookie.com/embed/0Gl1QvQLbQo?si=PJbTQY23DT6Ofin_",
   },
-  
 ];
 export const mobrobvideos = [
   {
@@ -92,4 +91,36 @@ export const mobrobvideos = [
     views: `1.1K+ Views`,
     path: "https://www.youtube-nocookie.com/embed/I-yH7ss5-S0?si=cP3vX31GE42eQqg9",
   },
+];
+export const Moreshorts = [
+  {
+    path: "https://www.youtube-nocookie.com/embed/AhhCLSUmaQQ?si=QGd7g-IiszgOQl8U",
+  },
+  {
+    
+    path: "https://www.youtube-nocookie.com/embed/3vuYTQ_hXI0?si=aK44Rg4E4cNZFeZd",
+  },
+  {
+    
+    path: "https://www.youtube-nocookie.com/embed/F-f9zBEq_uU?si=K7GuduHp3juaYI-P",
+  },
+  {
+    
+    path: "https://www.youtube-nocookie.com/embed/7j-Hw4LPv8c?si=AncbeKe6-bnHYNe5",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/j3pTeDffR7s?si=JNfbivAT3pislbJ_",
+  },
+  {
+    
+    path: "https://www.youtube-nocookie.com/embed/jv8X2_fkeVc?si=udn9HVrXaRwvHm3x",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/1nNOLUT4BV8?si=qd3730ODiVJ05wWE",
+  },
+  {
+    
+    path: "https://www.youtube-nocookie.com/embed/-KpO-4L8nvE?si=VzT3yd_naQeXnfWf",
+  },
+  
 ];

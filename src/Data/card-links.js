@@ -18,9 +18,9 @@ export const CardLinks = [
       {
         p1: `Gabe Bult`,
         p2: `Youtuber : 500+ Subscribers`,
-        p3: `Crafted long form videos, that has generated 10x Engagement Ratio, from DAY 1 `,
-        p4: `Gained over 80M+ Views and Impressions, with Long Form Content `,
-        p5: `Scaled his Personal Brand from 120K to 400K, in just 6 Months`,
+        p3: `Crafted long form videos, that has generated 10x Engagement Ratio, from DAY 1.`,
+        p4: `Gained over 80M+ Views and Impressions, with Long Form Content.`,
+        p5: `Scaled his Personal Brand from 120K to 400K, in just 6 Months.`,
       },
     ],
     path: "https://www.youtube.com/embed/s7H9hyopPGE?si=65Pb-CfucyTux9Dd",
@@ -33,12 +33,12 @@ export const CardLinks = [
       {
         p1: `HARMAN SINGH`,
         p2: `Youtuber : 370K+ Subscribers`,
-        p3: `Scaled His Personal Brand from 400K to 430K, In just 1 Month `,
-        p4: `Gained over 8M+ Views and Impressions, through Long Form & Short Form Content`,
+        p3: `Scaled His Personal Brand from 400K to 430K, In just 1 Month.`,
+        p4: `Gained over 8M+ Views and Impressions, through Long Form & Short Form Content.`,
         p5: `Making a dedicated series on his Channel, In which I love to add a Spark of Authentic Storytelling.`,
       },
     ],
-    path: "",
+    path: "https://www.youtube.com/embed/joGa20fAngo?si=l6Bu0b54WsqJwa9f",
     image: HS,
     testimonial_video: "",
   },
@@ -85,21 +85,6 @@ export const CardLinks = [
   {
     title: [
       {
-        p1: `Sorted Talks`,
-        p2: `Youtuber : 270K+ Subscribers`,
-        p3: `Scaled their Personal Brand from 98K to 200K, In just 8 Months. `,
-        p4: `Able to adapat with Daily Uploads, without loosing the Quality of the Edits. `,
-        p5: `Helped the Founder to create Versatile Content, ranging from Comedy Sketches to Ad Films. `,
-      },
-    ],
-    path: "https://www.youtube-nocookie.com/embed/M9DU8J3KXP8?si=MGy3R42_95F0llEL",
-    testimonial_video:
-      "https://www.youtube.com/embed/AKywyiUlS90?si=NnGvz1xkw6OjBoXy",
-    image: ST,
-  },
-  {
-    title: [
-      {
         p1: `MobRob`,
         p2: `Youtuber : 2K+ Subscribers`,
         p3: `Replicated the Style of Most Popular Creators on YouTube like : MrBeast and Beta Squad.`,
@@ -110,7 +95,22 @@ export const CardLinks = [
     path: "https://www.youtube.com/embed/4CxP4OcR12U?si=ncGGDKCzME3AUD3x",
     image: MR,
     testimonial_video:
-      "https://www.youtube.com/embed/mo2TSEFeIVQ?si=1aR-AuS_A3zPo6pH",
+    "https://www.youtube.com/embed/mo2TSEFeIVQ?si=1aR-AuS_A3zPo6pH",
+  },
+  {
+    title: [
+      {
+        p1: `The Sorted TV`,
+        p2: `Youtuber : 270K+ Subscribers`,
+        p3: `Scaled their Personal Brand from 98K to 200K, In just 8 Months. `,
+        p4: `Able to adapat with Daily Uploads, without loosing the Quality of the Edits. `,
+        p5: `Helped the Founder to create Versatile Content, ranging from Comedy Sketches to Ad Films. `,
+      },
+    ],
+    path: "https://www.youtube.com/embed/X_rqU_vmqBY?si=XHFgIM4bRFdY8ghQ",
+    testimonial_video:
+      "https://www.youtube.com/embed/AKywyiUlS90?si=NnGvz1xkw6OjBoXy",
+    image: ST,
   },
 ];
 export const ShortLinks = [
