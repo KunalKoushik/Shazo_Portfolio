@@ -24,7 +24,7 @@ const About = () => {
           <motion.div className="sm:h-[300px] sm:w-[100%] rounded-lg md:h-[95%] md:min-w-[80%]"
             initial ={{ opacity: 0 ,x: ' 100vw' }}
             animate={{ opacity: 1, x: 0 }}
-            transition = {{ delay: 3, duration: 4 }}
+            transition = {{ delay: 0, duration: 2 }}
             >
             <iframe
               className={`rounded-lg h-full min-w-full`}

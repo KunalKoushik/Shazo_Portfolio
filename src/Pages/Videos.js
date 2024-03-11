@@ -6,6 +6,7 @@ import {
   Faaresqvideos,
   loststonervideos,
   podcasts,
+  recentvideos,
   mobrobvideos
 } from "../Data/Video-links";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
@@ -24,6 +25,7 @@ const Videos = () => {
   const SlideRef3 = useRef();
   const SlideRef4 = useRef();
   const SlideRef5 = useRef();
+  const SlideRef6 = useRef();
   return (
     <div className="font-mont mb-2 text-white relative w-11/12 flex items-center justify-center mx-auto flex-col gap-8 ">
       {/* <div className="flex sm:flex-wrap h-[15rem] items-center sm:justify-center md:justify-around  md:w-[80%] mt-4 sm:gap-4">
@@ -60,25 +62,39 @@ const Videos = () => {
         <div className="  z-2 flex  gap-2 justify-center mx-auto items-center  w-[100%] ">
           
           <Swiper
-            ref={SlideRef1}
-            breakpoints={{
-              200:{slidesPerView:1,spaceBetween: 10},
-              500: { slidesPerView: 2, spaceBetween: 10 },
-              900:{slidesPerView:3},
-            }}
-            slidesPerView={3}
-            spaceBetween={2}
-            loop={true}
-            freeMode={true}
-            //   navigation={true}
-            autoplay={{
-              delay: 5000,
-              disableOnInteraction: false,
-            }}
-            modules={[FreeMode, Pagination, Navigation, Autoplay]}
-            className=" w-[100%] transition-all duration-75  bg-richblack-900  "
-          >
-            
+             ref={SlideRef1}
+             breakpoints={{
+               200:{slidesPerView:1,spaceBetween: 10},
+               500: { slidesPerView: 2, spaceBetween: 10 },
+               900:{slidesPerView:3},
+             }}
+             slidesPerView={3}
+             spaceBetween={2}
+             loop={true}
+             freeMode={true}
+             //   navigation={true}
+             autoplay={{
+               delay: 5000,
+               disableOnInteraction: true,
+             }}
+             modules={[FreeMode, Pagination, Navigation, Autoplay]}
+             className=" w-[100%] transition-all duration-75  bg-richblack-900  "
+           >
+            {recentvideos.map((link, index) => (
+              <SwiperSlide key={index}>
+                <div className="text-xl flex flex-col items-center">
+                  <iframe
+                    className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-xl"
+                    src={link?.path}
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                  
+                </div>
+              </SwiperSlide>
+              ))}
           </Swiper>
           
         </div>

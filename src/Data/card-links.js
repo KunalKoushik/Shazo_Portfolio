@@ -40,7 +40,7 @@ export const CardLinks = [
     ],
     path: "https://www.youtube.com/embed/joGa20fAngo?si=l6Bu0b54WsqJwa9f",
     image: HS,
-    testimonial_video: "",
+    testimonial_video: "https://www.youtube.com/embed/PN12z8Aq1VU?si=SPX_lqkExXSbO1ET",
   },
   {
     title: [
@@ -52,9 +52,9 @@ export const CardLinks = [
         p5: `Gained over 1M+ Views and Impressions, in a single day.`,
       },
     ],
-    path: "",
+    path: "https://www.youtube.com/embed/iW5tYPlAXRQ?si=pAx9uyU2N4Usr2NY",
     image: HO,
-    testimonial_video: "",
+    testimonial_video: "https://www.youtube.com/embed/PN12z8Aq1VU?si=SPX_lqkExXSbO1ET",
   },
   {
     title: [
@@ -81,6 +81,7 @@ export const CardLinks = [
     ],
     path: "https://www.youtube.com/embed/0C8wasc-J-Q?si=dZcTHeBG_LquLHYa",
     image: LS,
+    testimonial_video: "https://www.youtube.com/embed/PN12z8Aq1VU?si=SPX_lqkExXSbO1ET",
   },
   {
     title: [

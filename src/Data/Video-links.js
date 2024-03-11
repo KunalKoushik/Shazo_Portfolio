@@ -92,6 +92,19 @@ export const mobrobvideos = [
     path: "https://www.youtube-nocookie.com/embed/I-yH7ss5-S0?si=cP3vX31GE42eQqg9",
   },
 ];
+export const recentvideos = [
+  {
+    path: "https://www.youtube.com/embed/2AAd5zJm7i0?si=looPU5Dbj0JhnyQv",
+  },
+  {
+
+    path: "https://www.youtube.com/embed/GG88OFrbnbs?si=J-7cl4slCtZz8EDQ",
+  },
+  {
+    
+    path: "https://www.youtube.com/embed/mF05hpXDWJI?si=pRxhlUAlPWpQiVjT",
+  },
+];
 export const Moreshorts = [
   {
     path: "https://www.youtube-nocookie.com/embed/AhhCLSUmaQQ?si=QGd7g-IiszgOQl8U",
