@@ -22,7 +22,7 @@ const Reels = () => {
   return (
     <div className="mt-0  font-mont mb-2 text-white relative w-11/12 flex  mx-auto flex-col md:gap-8 ">
         
-        <div className="flex items-center justify-center  gap-1 md:mt-4  w-[100%] ">
+        <div className="flex items-center  gap-1 md:mt-4  ">
           <FaArrowCircleLeft
             onClick={() => {
               SlideRef1.current.swiper.slidePrev();

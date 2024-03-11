@@ -36,7 +36,7 @@ const Card = ({
         </div>
         <div className="sm:w-[90%] flex md:h-[26rem] sm+:mt-16 md:mt-0  gap-4 items-start justify-between md:w-[44%] flex-col text-left p-1 ">
           <div className="w-full flex text-justify sm:items-center sm:justify-center md:justify-between md:space-x-3 flex-row sm:mt-2 md:mt-0 sm:gap-8 md:gap-0 ">
-            <div className="sm:h-1/2 sm:w-1/2 sm+:h-[30%] sm+:w-[30%] md:h-full md:w-[40%] flex items-center justify-center">
+            <div className="sm:hidden md:flex sm:h-1/2 sm:w-1/2 sm+:h-[30%] sm+:w-[30%] md:h-full md:w-[40%] flex items-center justify-center">
               <img
                 className=" rounded-full  bg-richblack-900 "
                 src={client}
@@ -44,7 +44,7 @@ const Card = ({
                 loading="lazy"
               />
             </div>
-            <div className="md:gap-2  md:flex md:flex-col sm:w-[100%]   md:w-[60%] flex-wrap ">
+            <div className="md:gap-2 md:flex md:flex-col sm:w-[100%] md:w-[60%] flex-wrap w-full  ">
               <p className=" text-yellow-50 md:text-left sm:text-xl md:text-4xl font-bold sm:text-center ">
                 {text1}
               </p>
@@ -52,7 +52,7 @@ const Card = ({
                 {text2}
               </p>
 
-              <div className="flex items-start gap-x-4  justify-between md:w-full flex-row  sm:gapx-2 ">
+              <div className="flex sm:w-[110%] sm:-translate-x-3 md:translate-x-0 items-start gap-x-4  justify-between md:w-full flex-row  sm:gapx-2 ">
                 <IconBtn
                   active={false}
                   text="Testimonial"
