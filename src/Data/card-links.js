@@ -17,7 +17,7 @@ export const CardLinks = [
     title: [
       {
         p1: `Gabe Bult`,
-        p2: `Youtuber : 500+ Subscribers`,
+        p2: `Youtuber : 500K+ Subscribers`,
         p3: `Crafted long form videos, that has generated 10x Engagement Ratio, from DAY 1.`,
         p4: `Gained over 80M+ Views and Impressions, with Long Form Content.`,
         p5: `Scaled his Personal Brand from 120K to 400K, in just 6 Months.`,
@@ -35,7 +35,7 @@ export const CardLinks = [
         p2: `Youtuber : 370K+ Subscribers`,
         p3: `Scaled His Personal Brand from 400K to 430K, In just 1 Month.`,
         p4: `Gained over 8M+ Views and Impressions, through Long Form & Short Form Content.`,
-        p5: `Making a dedicated series on his Channel, In which I love to add a Spark of Authentic Storytelling.`,
+        p5: `Making a dedicated series on his Channel , In which I love to add a Spark of Authentic Storytelling.`,
       },
     ],
     path: "https://www.youtube.com/embed/joGa20fAngo?si=l6Bu0b54WsqJwa9f",

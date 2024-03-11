@@ -20,9 +20,9 @@ const Reels = () => {
   const SlideRef1 = useRef();
   const navigate = useNavigate();
   return (
-    <div className="mt-0  font-mont mb-2 text-white relative w-11/12 flex  mx-auto flex-col md:gap-8 ">
+    <div className="mt-0 items-center justify-center font-mont mb-2 text-white relative w-11/12 flex  mx-auto  md:gap-8 ">
         
-        <div className="flex items-center  gap-1 md:mt-4  ">
+        <div className="flex items-center w-[80%] justify-center gap-1 md:mt-4  ">
           <FaArrowCircleLeft
             onClick={() => {
               SlideRef1.current.swiper.slidePrev();
@@ -33,11 +33,11 @@ const Reels = () => {
           ref={SlideRef1}
           breakpoints={{
             200:{slidesPerView:1,spaceBetween: 10},
-            500: { slidesPerView: 3 , spaceBetween: 10 },
-            900:{slidesPerView:4},
+            500: { slidesPerView: 2 , spaceBetween: 10 },
+            900:{slidesPerView:3},
           }}
-          slidesPerView={4}
-          spaceBetween={4}
+          slidesPerView={3}
+          spaceBetween={10}
           loop={true}
           freeMode={true}
           scrollbar={{ draggable: true }}

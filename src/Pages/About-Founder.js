@@ -21,10 +21,10 @@ const About = () => {
           className="md:h-[40rem]  w-full h-full  text-justify  text-white flex flex-col  items-center justify-center gap-2  "
         >
           
-          <motion.div className="sm:h-[300px] sm:w-[100%] rounded-lg md:h-[95%] md:min-w-[80%]"
-            initial ={{ opacity: 0 ,x: ' 100vw' }}
-            animate={{ opacity: 1, x: 0 }}
-            transition = {{ delay: 0, duration: 2 }}
+          <motion.div className="sm:h-[300px] sm:w-[100%] rounded-lg md:h-[100%] md:min-w-[80%]"
+            initial ={{ opacity: 0  }}
+            animate={{ opacity: 1}}
+            transition = {{ delay: 0, duration: 3 }}
             >
             <iframe
               className={`rounded-lg h-full min-w-full`}

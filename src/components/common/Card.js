@@ -70,11 +70,16 @@ const Card = ({
               </div>
             </div>
           </div>
-          <ul style={{ listStyleType: "disc" }} className=" translate-x-4 sm:hidden md:block ">
-            <li >{text3}</li>
-            <li >{text4}</li>
-            <li >{text5}</li>
-          </ul>  
+          <div className=" w-[95%] translate-x-2 flex items-center justify-center ">
+            <ul
+              style={{ listStyleType: "disc" }}
+              className="translate-x-4 text-left sm:hidden md:block "
+            >
+              <li>{text3}</li>
+              <li>{text4}</li>
+              <li>{text5}</li>
+            </ul>
+          </div>
         </div>
       </div>
 

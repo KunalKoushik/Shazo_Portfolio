@@ -58,7 +58,7 @@ const Videos = () => {
       <section
         className="flex flex-col  w-[95%] mx-auto my-auto gap-4"
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center font-bold m-2 ">RECENT VIDEOS</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center font-bold m-2 ">Recent Videos</h2>
         <div className="  z-2 flex  gap-2 justify-center mx-auto items-center  w-[100%] ">
           
           <Swiper
@@ -99,11 +99,12 @@ const Videos = () => {
           
         </div>
       </section>
+
       <section
         id="1"
         className="flex flex-col  w-[95%] mx-auto my-auto gap-4"
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center font-bold m-2 ">GABE BULT</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center font-bold m-2 ">Gabe Bult</h2>
         <div className="  z-2 flex  gap-2 justify-center mx-auto items-center  w-[100%] ">
           {/* <FaArrowCircleLeft
             onClick={() => {
@@ -154,11 +155,12 @@ const Videos = () => {
           /> */}
         </div>
       </section>
+
       <section
         id="2"
         className=" flex flex-col w-[95%] mx-auto my-auto gap-4 "
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold ">FAARES Q</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold ">Faares Q</h2>
         <div className="  z-2 flex gap-2 justify-center mx-auto items-center  w-[100%]  ">
           
           <Swiper
@@ -191,7 +193,6 @@ const Videos = () => {
                     allowfullscreen
                     loading="lazy"
                   ></iframe>
-                  <p>{link?.views}</p>
                 </div>
               </SwiperSlide>
             ))}
@@ -199,11 +200,12 @@ const Videos = () => {
           
         </div>
       </section>
+
       <section
         id="3"
         className="  flex flex-col w-[95%] mx-auto my-auto gap-4 "
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold ">LOSTSTONER</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold ">Loststoner</h2>
         <div className="  z-2 flex gap-2 justify-center mx-auto items-center  w-[100%] ">
           
           <Swiper
@@ -236,7 +238,6 @@ const Videos = () => {
                     allowfullscreen
                     loading="lazy"
                   ></iframe>
-                  <p>{link?.views}</p>
                 </div>
               </SwiperSlide>
             ))}
@@ -249,7 +250,7 @@ const Videos = () => {
         id="5"
         className=" flex flex-col w-[95%] mx-auto my-auto gap-4 "
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold">MOBROB</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold">Mobrob</h2>
         <div className="  z-2 flex gap-2 justify-center mx-auto items-center  w-[100%] ">
           
           <Swiper
@@ -282,7 +283,6 @@ const Videos = () => {
                     allowfullscreen
                     loading="lazy"
                   ></iframe>
-                  <p>{link?.views}</p>
                 </div>
               </SwiperSlide>
             ))}
@@ -290,11 +290,12 @@ const Videos = () => {
           
         </div>
       </section>
+
       <section
         id="4"
         className="  flex flex-col w-[95%] mx-auto my-auto gap-4 "
       >
-        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold">PODCASTS</h2>
+        <h2 className="text-black  bg-yellow-50 sm:text-3xl md:text-6xl text-center m-2 font-bold">Podcasts</h2>
         <div className="  z-2 flex gap-2 justify-center mx-auto items-center  w-[100%] ">
           
           <Swiper
