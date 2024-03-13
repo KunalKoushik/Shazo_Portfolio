@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef } from "react";
+import { motion } from "framer-motion";
 
 import {
   Gabebultvideos,
@@ -27,34 +28,10 @@ const Videos = () => {
   const SlideRef5 = useRef();
   const SlideRef6 = useRef();
   return (
-    <div className="font-mont mb-2 text-white relative w-11/12 flex items-center justify-center mx-auto flex-col gap-8 ">
-      {/* <div className="flex sm:flex-wrap h-[15rem] items-center sm:justify-center md:justify-around  md:w-[80%] mt-4 sm:gap-4">
-        <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#1"}>
-          <img src={GB} className="rounded-full h-[100%]" alt="Gabe Bult" loading="lazy"/>
-        <p className="text-center mt-1 md:text-xl ">Gabe Bult</p>
-        </Link>
-        <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#2"}>
-          <img src={FQ} className="rounded-full h-[100%] " alt="Farees Q"  loading="lazy" />
-        <p className="text-center mt-1 md:text-xl ">Faares Q</p>
-        </Link>
-        <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#3"}>
-          <img src={LS} className="rounded-full h-[100%] " alt="Loststoner"  loading="lazy"/>
-        <p className="text-center mt-1 md:text-xl ">Loststoner</p>
-        </Link>
-        <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#4"}>
-          <img
-            src={ST}
-            className="rounded-full h-[100%] bg-richblack-800 "
-            alt=" Sorted Talk"
-            loading="lazy"
-          />
-        <p className="text-center mt-1 md:text-xl ">Sorted Talk</p>
-        </Link>
-        <Link className="rounded-full sm:h-[30%] md:h-[80%]" to={"#5"}>
-        <img src={MR} className="rounded-full h-[100%] " alt="MobRob"  loading="lazy"/>
-        <p className="text-center mt-1 md:text-xl ">MobRob</p>
-        </Link>
-      </div> */}
+    <motion.div className="font-mont mt-14 mb-2 text-white relative w-11/12 flex items-center justify-center mx-auto flex-col gap-8 "
+    initial ={{ opacity: 0  }}
+    animate={{ opacity: 1}}
+    transition = {{ delay: 1, duration: 3 }}>
       <section
         className="flex flex-col  w-[95%] mx-auto my-auto gap-4"
       >
@@ -337,7 +314,7 @@ const Videos = () => {
         </div>
       </section>
       
-    </div>
+    </motion.div>
   );
 };
 
