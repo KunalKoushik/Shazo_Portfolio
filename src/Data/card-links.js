@@ -122,6 +122,31 @@ export const ShortLinks = [
   {
     path: "https://www.youtube-nocookie.com/embed/8Ffy4vveELc?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
+  {
+    path: "https://www.youtube-nocookie.com/embed/AhhCLSUmaQQ?si=QGd7g-IiszgOQl8U",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/1nNOLUT4BV8?si=qd3730ODiVJ05wWE",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/F-f9zBEq_uU?si=K7GuduHp3juaYI-P",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/3vuYTQ_hXI0?si=aK44Rg4E4cNZFeZd",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/j3pTeDffR7s?si=JNfbivAT3pislbJ_",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/7j-Hw4LPv8c?si=AncbeKe6-bnHYNe5",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/jv8X2_fkeVc?si=udn9HVrXaRwvHm3x",
+  },
+
+  {
+    path: "https://www.youtube-nocookie.com/embed/-KpO-4L8nvE?si=VzT3yd_naQeXnfWf",
+  },
 
   {
     path: "https://www.youtube-nocookie.com/embed/9YOq4YTEOog?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",

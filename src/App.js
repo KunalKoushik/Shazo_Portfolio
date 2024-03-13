@@ -13,7 +13,6 @@ import ScaleLoader from "react-spinners/ScaleLoader";
 import { useLocation,matchPath } from "react-router-dom";
 import Nav from './components/common/nav';
 import { lazy,Suspense, useEffect, useState } from 'react';
-import Reels from './Pages/Reels';
 
 const Morevideos = lazy( ()=> import('./Pages/Videos'))
 
@@ -54,7 +53,6 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/mail" element={<Greet />} />
         <Route path="/videos" element={<Morevideos/>} />
-        <Route path="/shorts" element={<Reels/>} />
         <Route path="*" element={<Error />} />
     </Routes>
       </Suspense>
