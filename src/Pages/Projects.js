@@ -120,13 +120,13 @@ const Projects = () => {
           className="hover:scale-95 hover:cursor-pointer  rounded-full text-black bg-yellow-50 md:-translate-x-14 sm:h-10 sm:w-10 md:h-[4rem]  md:w-[4rem]"
         />
       </div>
-      <IconBtn
+      {/* <IconBtn
         active={false}
         text="More Engaging Shorts"
         onclick={() => {
           navigate("/shorts");
         }}
-      ></IconBtn>
+      ></IconBtn> */}
     </div>
   );
 };
