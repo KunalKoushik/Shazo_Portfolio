@@ -27,14 +27,14 @@ export const ClientDetails = [
     image: PW,
   },
   {
-    title: `NCERT Wallah`,
-    Sub: `1.21M+ Subscribers`,
-    image: NW,
-  },
-  {
     title: `Homeys`,
     Sub: `2M+ Subscribers`,
     image: HO,
+  },
+  {
+    title: `NCERT Wallah`,
+    Sub: `1.21M+ Subscribers`,
+    image: NW,
   },
   {
     title: `Gabe Bult`,

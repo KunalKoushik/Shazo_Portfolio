@@ -17,7 +17,7 @@ function Home() {
       }
     >
       <div
-        className="  relative mx-auto flex sm:w-[85%]  md:w-11/12 max-w-maxContent flex-col 
+        className="mt-14 relative mx-auto flex sm:w-[85%]  md:w-11/12 max-w-maxContent flex-col 
     items-center justify-between md:gap-10 sm:gap-6  font-mont  text-white"
       >
         {/* About Founder */}

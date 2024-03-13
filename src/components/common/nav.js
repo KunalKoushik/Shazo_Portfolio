@@ -20,7 +20,7 @@ function Nav() {
     }
   };
   const navbarStyles = {
-    // position: 'fixed',
+    position: 'fixed',
     height: "8%",
     width: "100%",
     backgroundColor: "richblack-700",
@@ -32,7 +32,7 @@ function Nav() {
 
   return (
     <div style={{ ...navbarStyles }}>
-      <div className="flex  items-center bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-richblack-800 to-richblack-900  mb-0  mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="flex items-center bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-richblack-800 to-richblack-900 mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className=" flex items-center justify-between mx-auto  h-14  ">
           <div className=" md:-translate-x-8 items-center  text-yellow-50 rounded-md font-bold sm:text-xl md:text-3xl ">
             <Link to={"/"}>
