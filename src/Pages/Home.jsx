@@ -4,7 +4,7 @@ import ScaleLoader from "react-spinners/ScaleLoader";
 import { lazy, Suspense, useEffect, useState } from "react";
 import ContactUsForm from "./ContactUsForm";
 
-const About = lazy(() => import("../Pages/About-Founder"));
+const About = lazy(() => import("./About-Founder"));
 const Projects = lazy(() => import("./Projects"));
 const Clients = lazy(() => import("../components/common/Clients"));
 function Home() {

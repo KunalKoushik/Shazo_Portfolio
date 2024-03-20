@@ -1,5 +1,4 @@
 import React from "react";
-import ScaleLoader from "react-spinners/ScaleLoader";
 import IconBtn from "../components/common/IconBtn";
 import Intro from "../components/common/Intro";
 import { motion } from "framer-motion";

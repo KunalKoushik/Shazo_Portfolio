@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import IconBtn from "./IconBtn";
-import { TbCircleDotFilled } from "react-icons/tb";
-import { FaCircleDot } from "react-icons/fa6";
 import Testimonial from "../Projects/Testimonial";
 
 const Card = ({

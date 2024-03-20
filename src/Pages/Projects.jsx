@@ -1,11 +1,9 @@
 import React from "react";
 import { useRef, useState } from "react";
-import IconBtn from "../components/common/IconBtn";
 import { CardLinks, ShortLinks } from "../Data/card-links";
 import Card from "../components/common/Card";
 import Reels from "../components/common/Shorts";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -20,7 +18,6 @@ const Projects = () => {
   const [Testimonialstate, setTestimonialstate] = useState(false);
   const SlideRef = useRef();
   const SlideRef1 = useRef();
-  const navigate = useNavigate();
   return (
     <div
       id="projects"

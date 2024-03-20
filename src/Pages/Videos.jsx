@@ -10,7 +10,6 @@ import {
   recentvideos,
   mobrobvideos
 } from "../Data/Video-links";
-import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -61,6 +60,7 @@ const Videos = () => {
               <SwiperSlide key={index}>
                 <div className="text-xl flex flex-col items-center">
                   <iframe
+                  title="1"
                     className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-xl"
                     src={link?.path}
                     frameborder="0"
@@ -112,6 +112,7 @@ const Videos = () => {
               <SwiperSlide key={index}>
                 <div className="text-xl flex flex-col items-center">
                   <iframe
+                  title="2"
                     className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-xl"
                     src={link?.path}
                     frameborder="0"
@@ -163,6 +164,7 @@ const Videos = () => {
               <SwiperSlide key={index}>
               <div className="text-xl flex flex-col items-center">
                   <iframe
+                  title="3"
                     className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-xl "
                     src={link?.path}
                     frameborder="0"
@@ -208,6 +210,7 @@ const Videos = () => {
               <SwiperSlide key={index}>
               <div className="text-xl flex flex-col items-center">
                   <iframe
+                  title="4"
                     className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-2xl "
                     src={link?.path}
                     frameborder="0"
@@ -253,6 +256,7 @@ const Videos = () => {
               <SwiperSlide key={index}>
               <div className="text-xl flex flex-col items-center">
                   <iframe
+                  title="5"
                     className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-xl"
                     src={link?.path}
                     frameborder="0"
@@ -298,6 +302,7 @@ const Videos = () => {
               <SwiperSlide key={index}>
               <div className="text-xl flex flex-col items-center">
                   <iframe
+                  title="6"
                     className="px-1 sm:w-full sm:h-full md:h-[230px] md:w-[420px] rounded-xl"
                     src={link?.path}
                     frameborder="0"

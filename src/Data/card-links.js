@@ -9,7 +9,7 @@ const FQ =
 const LS =
   "https://res.cloudinary.com/di9itdore/image/upload/v1707212066/Shazofyne/Logos/loststoner_od7a21.png";
 const ST =
-  "https://res.cloudinary.com/di9itdore/image/upload/v1707212057/Shazofyne/Logos/Sorted_Talks_Logo_lwqpwv.png";
+  "https://res.cloudinary.com/di9itdore/image/upload/v1710062105/Shazofyne/Logos/unnamed_1_xlm4ko.jpg";
 const MR =
   "https://res.cloudinary.com/di9itdore/image/upload/v1707212062/Shazofyne/Logos/mobrob_yecgyh.jpg";
 export const CardLinks = [
@@ -119,14 +119,20 @@ export const ShortLinks = [
   {
     path: "https://www.youtube-nocookie.com/embed/9aoQNCx2GU0?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
+  //maria
   {
     path: "https://www.youtube-nocookie.com/embed/8Ffy4vveELc?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
+  //harman
   {
     path: "https://www.youtube-nocookie.com/embed/AhhCLSUmaQQ?si=QGd7g-IiszgOQl8U",
   },
+  //shazo
   {
-    path: "https://www.youtube-nocookie.com/embed/1nNOLUT4BV8?si=qd3730ODiVJ05wWE",
+    path: "https://www.youtube-nocookie.com/embed/BklgajsMm9k?si=VPH2mBO6KhxKmyM6"
+  },
+  {
+    path:"https://www.youtube-nocookie.com/embed/0lF9vdT8JhI?si=13IRDzVxw3ybh6MY"
   },
   {
     path: "https://www.youtube-nocookie.com/embed/F-f9zBEq_uU?si=K7GuduHp3juaYI-P",
@@ -134,34 +140,35 @@ export const ShortLinks = [
   {
     path: "https://www.youtube-nocookie.com/embed/3vuYTQ_hXI0?si=aK44Rg4E4cNZFeZd",
   },
+  //shazo
   {
-    path: "https://www.youtube-nocookie.com/embed/j3pTeDffR7s?si=JNfbivAT3pislbJ_",
+    path: "https://www.youtube-nocookie.com/embed/1nNOLUT4BV8?si=qd3730ODiVJ05wWE",
+  },
+  {
+    path: "https://www.youtube-nocookie.com/embed/uHkL6q24EfA?si=e1XQ1F5nyjv5m1Hw?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
   {
     path: "https://www.youtube-nocookie.com/embed/7j-Hw4LPv8c?si=AncbeKe6-bnHYNe5",
   },
   {
-    path: "https://www.youtube-nocookie.com/embed/jv8X2_fkeVc?si=udn9HVrXaRwvHm3x",
+    path: "https://www.youtube-nocookie.com/embed/5mOPX945cdk?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
-
+  
+  {
+    path: "https://www.youtube-nocookie.com/embed/q61DmZ3e31U?si=ui478rFr-yP6TVr8&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
+  },
+  
   {
     path: "https://www.youtube-nocookie.com/embed/-KpO-4L8nvE?si=VzT3yd_naQeXnfWf",
   },
-
+  
   {
     path: "https://www.youtube-nocookie.com/embed/9YOq4YTEOog?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
   },
-
-  //maria
-
   {
-    path: "https://www.youtube-nocookie.com/embed/uHkL6q24EfA?si=e1XQ1F5nyjv5m1Hw?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
+    path: "https://www.youtube-nocookie.com/embed/j3pTeDffR7s?si=JNfbivAT3pislbJ_",
   },
   {
-    path: "https://www.youtube-nocookie.com/embed/5mOPX945cdk?&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
-  },
-
-  {
-    path: "https://www.youtube-nocookie.com/embed/q61DmZ3e31U?si=ui478rFr-yP6TVr8&loop=1&modestbranding=1&playsinline=1&rel=0&snablejsapi=1",
+    path: "https://www.youtube-nocookie.com/embed/jv8X2_fkeVc?si=udn9HVrXaRwvHm3x",
   },
 ];
