@@ -52,7 +52,7 @@ export const CardLinks = [
         p5: `Gained over 1M+ Views and Impressions, in a single day.`,
       },
     ],
-    path: "https://www.youtube.com/embed/iW5tYPlAXRQ?si=pAx9uyU2N4Usr2NY",
+    path: "https://www.youtube.com/embed/PN12z8Aq1VU?si=SPX_lqkExXSbO1ET",
     image: HO,
     testimonial_video: "https://www.youtube.com/embed/PN12z8Aq1VU?si=SPX_lqkExXSbO1ET",
   },

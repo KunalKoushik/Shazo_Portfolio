@@ -36,11 +36,11 @@ function App() {
   
   
   return IsLoading? (
-    <div className='flex h-[100vh] w-full items-center justify-center  bg-richblack-900'>
+    <div  className='flex h-[100vh] w-full items-center justify-center  bg-richblack-900'>
     <ScaleLoader color="#FFD60A" size={30} speedMultiplier={2}
     />
     </div>):( 
-    <div id='about' className="relative flex min-h-screen w-screen flex-col bg-richblack-900 justify-between font-mont ">
+    <div id='about' style={{ userSelect: "none" , webkitUserSelect : "none" , mozUserSelect : "none", msUserSelect : "none"}} className=" select-none relative flex min-h-screen w-screen flex-col bg-richblack-900 justify-between font-mont ">
     <Nav></Nav>
     {matchRoute("/mail") ? <Greetbg /> : <Particlebg/>}
     <ScrollToHashElement/>
