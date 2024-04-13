@@ -43,12 +43,6 @@ const Projects = () => {
           spaceBetween={25}
           loop={true}
           freeMode={true}
-          
-          // autoplay={{
-          //   delay: 9000,
-          //   disableOnInteraction: false,
-          // }}
-
           modules={[FreeMode, Pagination, Navigation, Autoplay]}
           className="sm:w-[80%] md:w-[100%]  "
         >
@@ -117,13 +111,7 @@ const Projects = () => {
           className="hover:scale-95 hover:cursor-pointer  rounded-full text-black bg-yellow-50 md:-translate-x-14 sm:h-10 sm:w-10 md:h-[4rem]  md:w-[4rem]"
         />
       </div>
-      {/* <IconBtn
-        active={false}
-        text="More Engaging Shorts"
-        onclick={() => {
-          navigate("/shorts");
-        }}
-      ></IconBtn> */}
+      
     </div>
   );
 };

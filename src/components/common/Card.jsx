@@ -1,5 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate  } from "react-router-dom";
+// import { useDispatch } from "react-redux";
 import IconBtn from "./IconBtn";
 import Testimonial from "../Projects/Testimonial";
 
@@ -16,7 +17,6 @@ const Card = ({
   setTestimonialstate,
 }) => {
   const navigate = useNavigate();
-  // const [Testmonial, setTestmonial] = useState(false)
 
   return (
     <div id="projects " className=" font-mont m-2 p-1 w-[100%] mx-auto ">
