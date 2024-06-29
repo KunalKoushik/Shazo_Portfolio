@@ -42,7 +42,7 @@ const Card = ({
                 loading="lazy"
               />
             </div>
-            <div className="md:gap-2 md:flex md:flex-col sm:w-[100%] md:w-[60%] flex-wrap w-full  ">
+            <div className="md:gap-2 md:flex md:flex-col sm:w-[100%] md:w-[65%] flex-wrap w-full  ">
               <p className=" text-yellow-50 md:text-left sm:text-xl md:text-4xl font-bold sm:text-center ">
                 {text1}
               </p>
