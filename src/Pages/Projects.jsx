@@ -29,7 +29,7 @@ const Projects = () => {
         YouTube Projects
       </h1>
 
-      <div className=" w-[110%] flex items-center justify-center ">
+      <div className=" w-[105%] flex items-center justify-center ">
         <FaArrowCircleLeft
           onClick={() => {
             SlideRef1.current.swiper.slidePrev();
@@ -44,7 +44,7 @@ const Projects = () => {
           loop={true}
           freeMode={true}
           modules={[FreeMode, Pagination, Navigation, Autoplay]}
-          className="sm:w-[80%] md:w-[100%]  "
+          className="sm:w-[80%] md:w-[90%] "
         >
           {CardLinks.map((link, index) => (
             <SwiperSlide key={index}>
